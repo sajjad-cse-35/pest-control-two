@@ -2,7 +2,7 @@ import React from 'react';
 import { PhoneCall, CheckCircle } from 'lucide-react';
 import aboutImageOne from '../asset/about.jpg';
 export function AboutUs() {
-  return <section className="py-16 md:py-20 bg-gray-100">
+  return <section id="about" className="py-16 md:py-20 bg-gray-100">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12">
           <div className="md:w-1/2">
