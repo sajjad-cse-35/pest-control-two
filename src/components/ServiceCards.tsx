@@ -5,7 +5,7 @@ import serviceImageTwo from '../asset/rodentandwildlifemanagement.jpg';
 import serviceImageThree from '../asset/termitesolutions.jpg';
 import serviceImageFour from '../asset/specializedpestservices.jpg';
 export function ServiceCards() {
-  return <section className="py-16 md:py-20 bg-white">
+  return <section id="services" className="py-16 md:py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-2xl md:text-3xl font-bold text-blue-900 text-center mb-10 md:mb-12">
           View Other Pest Control Services
