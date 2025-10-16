@@ -2,7 +2,7 @@ import React from 'react';
 import { PhoneCall, CheckCircle } from 'lucide-react';
 import heroImage from '../asset/hero-bg.jpg';
 export function Hero() {
-  return <section className="relative bg-cover bg-center py-16 md:py-24" style={{
+  return <section  id="home" className="relative bg-cover bg-center py-16 md:py-24" style={{
     backgroundImage: ' url("' + heroImage + '")',
   }}>
       <div className="container mx-auto px-4 md:px-6">
